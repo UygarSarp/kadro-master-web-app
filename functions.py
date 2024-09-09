@@ -1,3 +1,4 @@
+import FreeSimpleGUI as sg
 FILEPATH = "kadro.txt"
 
 

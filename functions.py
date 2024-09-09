@@ -12,15 +12,5 @@ def dosya_yaz(eklenecek, dosya_adi=FILEPATH):
     with open(dosya_adi, 'w') as dosya:
         dosya.writelines(eklenecek)
 
-
-def error_pencere(yazi):
-    error_yazi = sg.Text(yazi)
-    error_buton = sg.Button("Tamam")
-    error = sg.Window("Error", layout=[[error_yazi], [error_buton]])
-    error.read()
-    error.close()
-
-
-
 if __name__ == "__main__":
     print("Çet noluyoooo")
